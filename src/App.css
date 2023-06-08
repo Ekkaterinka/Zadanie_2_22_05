@@ -1,0 +1,59 @@
+
+.Tabs {
+width: 80%;
+height: auto;
+min-height: 400px;
+margin: 3.5rem auto 1.5rem;
+color: #040b0d;
+
+}
+
+ul.nav {
+width: 60%;
+margin: 0 auto 2rem;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-left: 0px;
+}
+
+ul.nav li {
+width: 50%;
+padding: 1rem;
+list-style: none;
+text-align: center;
+cursor: pointer;
+transition: all 0.7s;
+}
+
+ul.nav li:first-child {
+border-bottom-left-radius: 2rem;
+border-top-left-radius: 2rem;
+}
+
+ul.nav li:last-child {
+border-bottom-right-radius: 2rem;
+border-top-right-radius: 2rem;
+}
+
+ul.nav li.active {
+color: #2b373d;
+}
+
+.TabContent {
+font-size: 2rem;
+text-align: center;
+}
+.Valuta, .ListQuote, .NavBar {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+.NavBar a {
+    margin: 10px;
+}
+.Panel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
